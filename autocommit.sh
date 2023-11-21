@@ -79,6 +79,6 @@ push_config(){
   git commit -m "Autocommit from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
   git push origin $branch
 }
-
+m0="$*"
 grab_version
 push_config
